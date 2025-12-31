@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ app_name }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 {{ app_name }}</h1>
+        <p class="subtitle">Your Flask application is running successfully</p>
+
+        <div class="card">
+            <p><strong>Status:</strong> Active ✅</p>
+            <p><strong>Current Time:</strong> {{ time }}</p>
+        </div>
+
+        <footer>
+            <p>Built with ❤️ using Flask</p>
+        </footer>
+    </div>
+</body>
+</html>
+
