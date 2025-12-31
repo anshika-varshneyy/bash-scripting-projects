@@ -8,7 +8,7 @@ This repository contains multiple Bash scripting projects demonstrating various 
 
 | Project | Description | Link |
 |---------|-------------|------|
-| Project01 | [A Bash automation script to deploy a Flask application using Docker and Nginx.] | [README](Project-01(Deploy-flask-app)/README.md) |
+| Project01 | A Bash automation script to deploy a Flask application using Docker and Nginx. | [README](Project-01(Deploy-flask-app)/README.md) |
 | Project02 | [] | [README](./project02/README.md) |
 | Project03 | [] | [README](./project03/README.md) |
 | Project04 | [] | [README](./project04/README.md) |
