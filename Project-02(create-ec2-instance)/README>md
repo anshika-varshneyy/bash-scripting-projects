@@ -1,0 +1,28 @@
+The script performs AWS CLI validation, installation (if required), and automatically provisions an EC2 instance.
+
+---
+
+## Features
+
+-  Checks if AWS CLI is installed (check_awscli)
+-  Installs AWS CLI if not present (install_awscli)
+- Creates EC2 instance (create_ec2_instance)
+- Waits until instance is in running state (wait_for_running)
+- Fully automated provisioning
+
+---
+
+## How to Run
+
+1. Clone this repository
+   
+         git clone 
+         cd 
+
+2. Give execute permission
+ 
+         chmod +x create-ec2-instance.sh
+
+3. Run the script
+
+         ./create-ec2-instance.sh
